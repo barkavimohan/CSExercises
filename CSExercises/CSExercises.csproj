@@ -21,6 +21,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -32,11 +33,13 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CSExercises.Ex01</StartupObject>
+    <StartupObject>CSExercises.Ex31</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -52,7 +55,7 @@
     <Compile Include="Ex01-06\Ex01.cs" />
     <Compile Include="Ex07-15\Ex14.cs" />
     <Compile Include="Ex07-15\Ex15.cs" />
-    <Compile Include="Ex16-20\Ex16.cs" />
+    <Compile Include="Ex39-44\Ex16.cs" />
     <Compile Include="Ex16-20\Ex17.cs" />
     <Compile Include="Ex16-20\Ex18.cs" />
     <Compile Include="Ex16-20\Ex19.cs" />
